@@ -1,0 +1,140 @@
+*body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.banner {
+    background-color: rgba(229, 84, 115, 0.1);
+
+}
+
+.banner-container {
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    padding: 0px 140px;
+}
+
+.banner-content {
+   width: 450px;
+}
+
+.banner-content>h1 {
+    font-size: 40px;
+}
+
+.btn-primary{
+    padding: 10px 25px;
+    background-color: #E55473;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
+
+.banner-img {
+    padding-bottom: 0px;
+
+}
+
+.banner-img img {
+    height: 500px;
+    width: 400px;
+}
+
+/* header resposive */
+
+@media screen and (max-width:576px) {
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+       justify-content: space-around;
+        align-items: center;
+        padding: 0px ;
+        margin: 0px;
+    }
+}
+
+/* main */
+
+
+.heading{
+    margin: 100px auto;
+    text-align: center;
+}
+
+.featured-flowers-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30px; */
+}
+
+.flowers-img-container-1{
+    background-color: rgba(229, 84, 115, 0.1);
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-top-left-radius: 50% ;
+    border-top-right-radius: 50% ;
+}
+.flowers-img-container-2{
+    background-color: rgba(5, 151, 160, 0.15);
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-top-left-radius: 50% ;
+    border-top-right-radius: 50% ;
+}
+.flowers-img-container-3{
+    background-color: rgba(71, 125, 17, 0.15);
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-top-left-radius: 50% ;
+    border-top-right-radius: 50% ;
+}
+.featured-flowers-title{
+    text-align: center;
+}
+
+@media screen  and (max-width:576px) {
+    .featured-flowers-img{
+        flex-direction: column;
+    }
+}
+
+/* support style */
+
+
+.support{
+    /* background-color: rgba(229, 84, 115, 0.1); */
+    margin-top: 50px;
+}
+.support-container{
+    
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 20px;
+   margin: 0px 140px;
+   padding: 30px 20px;
+   background-color: rgba(39, 39, 39, 0.05);
+   border-radius: 10px;
+}
+.support-img-contant{
+    text-align: center;
+}
+@media screen and (max-width:576px){
+    .support-container{
+        margin: 0px;
+        padding: 0px;
+        gap: 0px;
+        flex-direction: column;
+    }
+}
