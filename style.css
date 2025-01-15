@@ -1,4 +1,4 @@
-*body {
+*{
     margin: 0%;
     padding: 0%;
 }
@@ -168,4 +168,53 @@
 
 .off{
     color: #E55473;
+}
+
+
+
+/* deal style */
+.latest-deal{
+    text-align: center;
+    margin: 50px 140px;
+   background-image: url('Flower Asset/Rectangle\ 9.png');
+   padding: 50px 100px;
+   border-radius: 10px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* background-position: center; */
+}
+.deal-heading{
+    text-align: center;
+}
+input {
+    margin-top: 20px;
+    width: 70%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+input::placeholder{
+    text-align: center;
+}
+
+@media screen and (max-width:576px) {
+    .latest-deal{
+        margin: 0px;
+        padding: 0px;
+    }
+    input{
+        width: auto;
+    }
+}
+
+/* footer style */
+
+
+footer{
+    background-color: black;
+}
+.foot{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px 0px;
 }
