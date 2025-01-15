@@ -142,3 +142,30 @@
         flex-direction: column;
     }
 }
+
+
+
+/* discount style */
+
+.discount{
+    margin-top: 100px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-color: rgba(229, 84, 115, 0.1);
+}
+
+.discount-details{
+    width: 450px;
+    text-align: center;
+}
+.discount-img img{
+    width: 200px;
+    height: 300px;
+}
+
+.off{
+    color: #E55473;
+}
